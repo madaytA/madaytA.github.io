@@ -492,7 +492,7 @@
 
 /* Media Queries for custom slider */
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 460px) {
 
 	.demo-1 .sl-slide blockquote {
 		margin-bottom: -250px;
@@ -504,6 +504,10 @@
 		margin-bottom: -100px;
 		line-height: 25px;
 		letter-spacing: 10px;
+	}
+	.demo-1 .deco{
+		bottom: 75%;
+		margin: -25%;
 	}
 	.demo-1 .bg-2 blockquote{
 		bottom: 65%;
@@ -521,13 +525,18 @@
 		left: -25px;
 	}
 	.img-50{
-		max-width: 90%;
+		max-width: 60%;
 		
 	}
 	.demo-1 .bg-3 .ca-menu{
 		margin: auto;
+		padding: auto;
 		max-width: 100%;
 	}
+
+	.demo-1 .bg-3 .ca-menu h1{
+		font-size: 12px;
+	}	
 	.demo-1 .bg-3 .ca-menu .ca-icon{
 		top: -20px;
 	}
@@ -536,31 +545,34 @@
 	}
 	.demo-1 .bg-3 .ca-menu li{
 		height: 150px;
-		width: 140px;
+		width: 120px;
 		position: absolute;
 		overflow: hidden;
 		float: none;
+		margin-top: 20px;
 	}
 	.demo-1 .bg-3 .habil-cinco{
-		margin-top: 150px;
-		margin-left: 250px;
+		top: 170px;
+		margin-left: 200px;
 		
 	}
 	.demo-1 .bg-3 .habil-cuatro{
-		margin-top: 150px;
+		top: 170px;
 		margin-left: 80px;
 		
 	}
 	.demo-1 .bg-3 .habil-tres{
-		margin-left: 280px;
+		margin-left: 240px;
 		
 	}
 	.demo-1 .bg-3 .habil-dos{
-		margin-left: 140px;
+		margin-left: 130px;
 		
 	}
 	.demo-1 .bg-3 .habil-uno{
-	 margin-left: 5px;
+	 margin-left: 15px;
 		
 	}
+
+
 }
