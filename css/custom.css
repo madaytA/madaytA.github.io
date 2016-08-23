@@ -509,21 +509,43 @@
 		bottom: 75%;
 		margin: -25%;
 	}
+	.demo-1 .bg-2 .dos{
+		margin: -35%;
+		top: 30%;
+		padding: auto;
+	}
 	.demo-1 .bg-2 blockquote{
-		bottom: 65%;
-		left: 0;
-		padding: 20px;
+		margin: -34%;
+		bottom: 50%;
+		padding: auto;
 	}
 	.demo-1 .bg-3 blockquote{
-		margin-bottom: -150px;
+		margin: auto;
+		bottom: 40%;
+		padding: auto;
 	}
-	.demo-1 .sl-slide blockquote p:before {
-		line-height: 10px;
-		width: 40px;
-		height: 40px;
-		font-size: 120px;
-		left: -25px;
+	.demo-1 .bg-4 blockquote{
+		margin: auto;
+		bottom: 43%;
+		padding: auto;
 	}
+	.demo-1 .bg-4 .main{
+   position:relative;
+    width:100%;
+    margin:auto;
+    padding: 0 25%;
+	}
+	.demo-1 .bg-4 .view {
+	   width: 200px;
+	   height: 70px;
+	   margin: 4px auto;
+	   border: 3px solid #fff;
+	  }
+
+	 .demo-1 .bg-4 .view .mask,.view .content {
+   width: 200px;
+   height: 70px;
+}
 	.img-50{
 		max-width: 60%;
 		
@@ -546,33 +568,10 @@
 	.demo-1 .bg-3 .ca-menu li{
 		height: 150px;
 		width: 120px;
-		position: absolute;
-		overflow: hidden;
-		float: none;
-		margin-top: 20px;
 	}
-	.demo-1 .bg-3 .habil-cinco{
-		top: 170px;
-		margin-left: 200px;
-		
+	
+	.demo-1 .bg-5 .contactame .cont{
+		display: inline-block;
 	}
-	.demo-1 .bg-3 .habil-cuatro{
-		top: 170px;
-		margin-left: 80px;
-		
-	}
-	.demo-1 .bg-3 .habil-tres{
-		margin-left: 240px;
-		
-	}
-	.demo-1 .bg-3 .habil-dos{
-		margin-left: 130px;
-		
-	}
-	.demo-1 .bg-3 .habil-uno{
-	 margin-left: 15px;
-		
-	}
-
 
 }
