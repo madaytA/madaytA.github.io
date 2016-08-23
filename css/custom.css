@@ -492,28 +492,14 @@
 /* Media Queries for custom slider */
 
 @media screen and (max-width: 660px) {
-	.demo-1 .deco {
-		width: 130px;
-		height: 130px;
-		margin-left: -65px;
-		margin-bottom: 50px;
-	}
-
-	.demo-1 [data-icon]:after {
-		width: 110px;
-		height: 110px;
-		line-height: 110px;
-		font-size: 40px;
-		margin: -55px 0 0 -55px;
-	}
 
 	.demo-1 .sl-slide blockquote {
-		margin-bottom: -120px;
+		margin-bottom: -250px;
 	}
 
 	.demo-1 .sl-slide h2 {
 		line-height: 22px;
-		font-size: 18px;
+		font-size: 22px;
 		margin-bottom: -40px;
 		letter-spacing: 8px;
 	}
