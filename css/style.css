@@ -121,9 +121,8 @@
 
 .tres{
 	background-image: url(../images/habil.png);
-	background-color: #fff;
 	background-position: center;
-	background-size: 80%;
+	background-size: 70%;
 	background-repeat: no-repeat;
 }
 .cuatro{
@@ -155,5 +154,5 @@
 	background-size: 85%;
 	background-repeat: no-repeat;
 }
-}
+
 

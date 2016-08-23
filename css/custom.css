@@ -262,23 +262,24 @@
 /* Third Slide */
 .demo-1 .bg-3 .sl-slide-inner,
 .demo-1 .bg-3 .sl-content-slice {
-	background: #90E0BD;
+	background: #fff;
+	color: #000;
 }
 
 .demo-1 .bg-3 .deco {
-	border-color: #fff;
+	border-color: #000;
 	border-color: rgba(255,255,255,0.5);
 }
 
 .demo-1 .bg-3 [data-icon]:after {
-	color: #fff;
+	color: #000;
 	text-shadow: 0 0 1px #fff;
-	box-shadow: inset 0 0 0 10px #fff;
+	box-shadow: inset 0 0 0 10px #000;
 }
 
 .demo-1 .bg-3 h2,
 .demo-1 .bg-3 blockquote{
-	color: #fff;
+	color: #000;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
 }
 
@@ -499,29 +500,67 @@
 
 	.demo-1 .sl-slide h2 {
 		line-height: 22px;
-		font-size: 22px;
-		margin-bottom: -40px;
-		letter-spacing: 8px;
+		font-size: 30px;
+		margin-bottom: -100px;
+		line-height: 25px;
+		letter-spacing: 10px;
 	}
-
+	.demo-1 .bg-2 blockquote{
+		bottom: 65%;
+		left: 0;
+		padding: 20px;
+	}
+	.demo-1 .bg-3 blockquote{
+		margin-bottom: -150px;
+	}
 	.demo-1 .sl-slide blockquote p:before {
 		line-height: 10px;
 		width: 40px;
 		height: 40px;
 		font-size: 120px;
-		left: -45px;
+		left: -25px;
 	}
-
-	.demo-2 .sl-slider-wrapper {
-		height: 500px;
+	.img-50{
+		max-width: 90%;
+		
 	}
-
-	.demo-2 .sl-slider h2 {
-		font-size: 36px;
+	.demo-1 .bg-3 .ca-menu{
+		margin: auto;
+		max-width: 100%;
 	}
-
-	.demo-2 .sl-slider blockquote {
-		font-size: 16px;
+	.demo-1 .bg-3 .ca-menu .ca-icon{
+		top: -20px;
 	}
-
+	.demo-1 .bg-3 .ca-menu h1 span{
+   		padding: 0;
+	}
+	.demo-1 .bg-3 .ca-menu li{
+		height: 150px;
+		width: 140px;
+		position: absolute;
+		overflow: hidden;
+		float: none;
+	}
+	.demo-1 .bg-3 .habil-cinco{
+		margin-top: 150px;
+		margin-left: 250px;
+		
+	}
+	.demo-1 .bg-3 .habil-cuatro{
+		margin-top: 150px;
+		margin-left: 80px;
+		
+	}
+	.demo-1 .bg-3 .habil-tres{
+		margin-left: 280px;
+		
+	}
+	.demo-1 .bg-3 .habil-dos{
+		margin-left: 140px;
+		
+	}
+	.demo-1 .bg-3 .habil-uno{
+	 margin-left: 5px;
+		
+	}
 }
