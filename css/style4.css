@@ -1,5 +1,4 @@
 @font-face {
-    font-family: 'WebSymbolsRegular';
     font-weight: normal;
     font-style: normal;
 }
@@ -8,7 +7,6 @@
     margin:20px auto;
     width: 1070px;
     color: #333;
-    font-family: 'Terminal Dosis', Arial, sans-serif;
     font-size: 13px;
 }
 .ca-menu h1{
@@ -30,7 +28,7 @@
 }
 .ca-menu li{
     width: 200px;
-    height: 300px;
+    height: 200px;
     overflow: hidden;
     position: relative;
     float: left;
@@ -58,7 +56,6 @@
     position: relative;
 }
 .ca-icon{
-    font-family: 'WebSymbolsRegular', cursive;
     color: #c5e4f4;
     font-size: 90px;
     text-shadow: 1px 0px 1px rgba(255,255,255,0.7);

@@ -112,23 +112,48 @@
 	background: #ccc;
 }
 
-.uno{
-	/*background-image: url(../images/logoa.png);*/
+.dos{
+	background-image: url(../images/madayt.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
-.uno .sl-slide h2 {
-	color: #000;
-	text-shadow: 0 0 1px #000;
-	padding: 20px;
-	position: absolute;
-	font-size: 34px;
-	font-weight: 700;
-	letter-spacing: 13px;
-	text-transform: uppercase;
-	width: 80%;
-	left: 10%;
-	text-align: center;
-	line-height: 50px;
-	bottom: 50%;
-	margin: 0 0 -120px 0;
+.tres{
+	background-image: url(../images/habil.png);
+	background-color: #fff;
+	background-position: center;
+	background-size: 80%;
+	background-repeat: no-repeat;
 }
+.cuatro{
+	background-image: url(../images/porta-imge.png);
+	background-position: center;
+	/*background-color: #fff;*/
+	background-size: 70%;
+	background-repeat: no-repeat;
+}
+.contactame .cont{
+	display: inline-block;
+}
+.contactame .mail img{
+	margin-bottom: 0px;
+}
+.contactame .mail .email a{
+	font-size: 20px;
+	color: #A40909;
+	font-family: 'Dancing Script', cursive;
+}
+.contactame img{
+	height: 80px;
+	width: 80px;
+	margin: 20px;
+}
+.cinco{
+	background-image: url(../images/contactame-fo.png);
+	background-position: center;
+	background-size: 85%;
+	background-repeat: no-repeat;
+}
+}
+
