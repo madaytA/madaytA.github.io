@@ -10,8 +10,6 @@
 	left: 0;
 }
 
-
-
 /* Custom navigation arrows */
 
 .nav-arrows span {
@@ -506,18 +504,38 @@
 		letter-spacing: 10px;
 	}
 	.demo-1 .deco{
-		bottom: 75%;
-		margin: -25%;
+		bottom: 80%;
+		margin: -20%;
+		height: 140px;
+		width: 140px;
+	}
+	.demo-1 [data-icon]:after {
+    	content: attr(data-icon);
+		height: 120px;
+		width: 120px;
+		top: 85%;
+		left: 85%;
 	}
 	.demo-1 .bg-2 .dos{
-		margin: -35%;
-		top: 30%;
+		margin: -25%;
+		bottom: 70%;
 		padding: auto;
+		height: 220px;
+		width: 220px;
+	}
+	.demo-1 .bg-2 [data-icon]:after {
+		height: 200px;
+		width: 200px;
+		top: 55%;
+		left: 55%;
+	}
+	.demo-1 .bg-2 h2{
+		bottom: 60%;
 	}
 	.demo-1 .bg-2 blockquote{
 		margin: -34%;
 		bottom: 50%;
-		padding: auto;
+		padding: 0 7%;
 	}
 	.demo-1 .bg-3 blockquote{
 		margin: auto;
