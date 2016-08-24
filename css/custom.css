@@ -245,7 +245,6 @@
 	bottom: 55%;
 	max-width: 400px;
 	left: 34%;
-
 	
 }
 .demo-1 .bg-2 [data-icon]:after,
@@ -265,13 +264,13 @@
 }
 
 .demo-1 .bg-3 .deco {
-	border-color: #000;
-	border-color: rgba(255,255,255,0.5);
+	border: 2px dashed #000;
+	border: 2px dashed #000;
 }
 
 .demo-1 .bg-3 [data-icon]:after {
 	color: #000;
-	text-shadow: 0 0 1px #fff;
+	text-shadow: 0 0 1px #000;
 	box-shadow: inset 0 0 0 10px #000;
 }
 
@@ -520,6 +519,9 @@
 		left: 123%;
 		box-shadow: inset 0 0 0 4px #f7f7f7;
 	}
+	.demo-1 .bg-3 [data-icon]:after{
+		box-shadow: inset 0 0 0 4px #000;
+	}
 	.demo-1 .bg-2 .dos{
 		margin: -25%;
 		bottom: 70%;
@@ -549,20 +551,13 @@
 		padding: 0 7%;
 		line-height: 1.5em;
 	}
-	.demo-1 .bg-1 blockquote, .demo-1 .bg-3 blockquote, .demo-1 .bg-4 blockquote, .demo-1 .bg-5 blockquote{
+	.demo-1 .bg-1 blockquote{
+		top: 45%;
+	}
+	.demo-1 .bg-3 blockquote, .demo-1 .bg-4 blockquote, .demo-1 .bg-5 blockquote{
 		top: 40%;
-		margin-top: 10px;
 	}
-	/*.demo-1 .bg-3 blockquote{
-		margin: auto;
-		bottom: 40%;
-		padding: auto;
-	}
-	.demo-1 .bg-4 blockquote{
-		margin: auto;
-		bottom: 43%;
-		padding: auto;
-	}*/
+
 	.demo-1 .bg-4 .main{
    position:relative;
     width:100%;
@@ -581,27 +576,31 @@
    height: 70px;
 }
 	.img-50{
-		max-width: 60%;
+		max-width: 50%;
+		max-height: 100%;
 		
 	}
 	.demo-1 .bg-3 .ca-menu{
 		margin: auto;
-		padding: auto;
+		padding: 5% 22%;
 		max-width: 100%;
 	}
-
+	.demo-1 .bg-3 .ca-main{
+		padding-top: 0;
+	}
 	.demo-1 .bg-3 .ca-menu h1{
 		font-size: 12px;
+
 	}	
 	.demo-1 .bg-3 .ca-menu .ca-icon{
-		top: -20px;
+		top: -70px;
 	}
 	.demo-1 .bg-3 .ca-menu h1 span{
    		padding: 0;
 	}
 	.demo-1 .bg-3 .ca-menu li{
-		height: 150px;
-		width: 120px;
+		height: 100px;
+		width: 100px;
 	}
 	
 	.demo-1 .bg-5 .contactame .cont{
