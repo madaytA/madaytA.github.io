@@ -508,16 +508,17 @@
 	}
 	.demo-1 .deco{
 		bottom: 80%;
-		margin: -20%;
-		height: 140px;
-		width: 140px;
+		margin: -15%;
+		height: 100px;
+		width: 100px;
 	}
 	.demo-1 [data-icon]:after {
     	content: attr(data-icon);
-		height: 120px;
-		width: 120px;
-		top: 85%;
-		left: 85%;
+		height: 80px;
+		width: 80px;
+		top: 121%;
+		left: 123%;
+		box-shadow: inset 0 0 0 4px #f7f7f7;
 	}
 	.demo-1 .bg-2 .dos{
 		margin: -25%;
@@ -548,7 +549,7 @@
 		padding: 0 7%;
 		line-height: 1.5em;
 	}
-	.demo-1 .bg-3 blockquote, .demo-1 .bg-4 blockquote, .demo-1 .bg-5 blockquote{
+	.demo-1 .bg-1 blockquote, .demo-1 .bg-3 blockquote, .demo-1 .bg-4 blockquote, .demo-1 .bg-5 blockquote{
 		top: 40%;
 	}
 	/*.demo-1 .bg-3 blockquote{
