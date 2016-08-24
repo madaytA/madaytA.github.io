@@ -551,6 +551,7 @@
 	}
 	.demo-1 .bg-1 blockquote, .demo-1 .bg-3 blockquote, .demo-1 .bg-4 blockquote, .demo-1 .bg-5 blockquote{
 		top: 40%;
+		margin-top: 10px;
 	}
 	/*.demo-1 .bg-3 blockquote{
 		margin: auto;
