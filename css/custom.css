@@ -491,17 +491,20 @@
 /* Media Queries for custom slider */
 
 @media screen and (max-width: 460px) {
-
+	
 	.demo-1 .sl-slide blockquote {
 		margin-bottom: -250px;
+		line-height: 1.5em;
+		
 	}
 
 	.demo-1 .sl-slide h2 {
-		line-height: 22px;
-		font-size: 30px;
+		line-height: 1.5em;
+		font-size: 35px;
 		margin-bottom: -100px;
-		line-height: 25px;
-		letter-spacing: 10px;
+		/*letter-spacing: normal;*/
+		
+		
 	}
 	.demo-1 .deco{
 		bottom: 80%;
@@ -531,13 +534,24 @@
 	}
 	.demo-1 .bg-2 h2{
 		bottom: 60%;
+		letter-spacing: normal;
+	} 
+
+	.demo-1 .bg-3 h2, .demo-1 .bg-4 h2, .demo-1 .bg-5 h2 {
+		bottom: 73%;
+		letter-spacing: normal;
 	}
+
 	.demo-1 .bg-2 blockquote{
 		margin: -34%;
 		bottom: 50%;
 		padding: 0 7%;
+		line-height: 1.5em;
 	}
-	.demo-1 .bg-3 blockquote{
+	.demo-1 .bg-3 blockquote, .demo-1 .bg-4 blockquote, .demo-1 .bg-5 blockquote{
+		top: 40%;
+	}
+	/*.demo-1 .bg-3 blockquote{
 		margin: auto;
 		bottom: 40%;
 		padding: auto;
@@ -546,7 +560,7 @@
 		margin: auto;
 		bottom: 43%;
 		padding: auto;
-	}
+	}*/
 	.demo-1 .bg-4 .main{
    position:relative;
     width:100%;
